@@ -1,0 +1,26 @@
+//widget 
+.widget {
+    background: $dark-bground;
+    margin-bottom: $xl-size;
+}
+
+//widget header
+.widget-header {
+    background-color: $dark-background;
+    color: $off-light;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.widget-header__title {
+    margin: 0rem;
+}
+
+.widget__message {
+    border-bottom: 1px solid lighten($dark-bground, 10%);
+    color: $off-light;
+    margin: 0rem;
+    padding: $m-size;
+    text-align: center;
+}

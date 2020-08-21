@@ -1,0 +1,39 @@
+.big-button {
+    background: $purple;
+    border: .5rem solid darken($purple, 14%);
+    color: rgb(172, 167, 167);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: $l-size;
+    padding: 2.4rem;
+    margin-bottom: $l-size;
+    width: 100%;
+}
+
+.big-button:disabled {
+    opacity: .5;
+}
+
+@media (min-width: 45rem) {
+    .big-button {
+        margin-bottom: $l-size;
+    }
+}
+
+//Button
+.button {
+    background: $purple;
+    border: none;
+    border-bottom: .3rem solid darken($purple, 10%);
+    color: whitesmoke;
+    font-weight: 500;
+    padding: $s-size;
+}
+
+//bem - block element modifier
+.button--link {
+    background: none;
+    border: none;
+    color: $off-light;
+    padding: 0;
+}
